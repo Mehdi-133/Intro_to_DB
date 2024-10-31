@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS Order_Details (
     book_id INT NOT NULL,
     quantity INT DEFAULT 1,
     price DECIMAL(10, 2) NOT NULL,
-    FOREIGN KEY (order_id) REFERENCES ORDERS(order_id) ON DELETE CASCADE,
-    FOREIGN KEY (book_id) REFERENCES BOOKS(book_id) ON DELETE CASCADE
+    FOREIGN KEY (order_id) REFERENCES Orders(order_id) ON DELETE CASCADE,
+    FOREIGN KEY (book_id) REFERENCES Books(book_id) ON DELETE CASCADE
 );
 
