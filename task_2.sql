@@ -1,6 +1,3 @@
--- task_2.sql
--- Script to create tables for the alx_book_store database
-
 USE alx_book_store;
 
 -- Table: authors
