@@ -3,7 +3,7 @@ USE alx_book_store;
 -- Table: authors
 CREATE TABLE IF NOT EXISTS authors (
     author_id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100) NOT NULL,
+    author_name VARCHAR(100) NOT NULL,
     bio TEXT
 );
 
